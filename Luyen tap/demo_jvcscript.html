@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo_Jvscript</title>
+</head>
+<body>
+    <button type="button" onclick="show_msg();">Click me</button>
+    <br/>
+    <br/>
+    <br/>
+    <div id="test2">Nội dung chưa thay đổi</div>
+
+    <button type="button" onclick="change_1();"> change_content</button>
+    <button type="button" onclick="change_2();"> Quay lại</button>
+
+    <script>
+        function show_msg(){
+           alert("Xin chào!");
+            //debugger;
+            document.write("xin chào lần 2");
+            document.write("xin chào lần 3");// in ra dòng chữ sang một trang trinh duyệt khác, quy tac flowchart
+            console.log ("xin chào lần 4"); //kết quả được hiện thị trong mục console
+        }
+        function change_1(){
+
+            document.getElementById("test2").innerHTML="Noi dung đã thay đổi";
+
+        }
+        function change_2(){
+
+            document.getElementById("test2").innerHTML="Nội dung chưa thay đổi";
+
+        }
+
+    </script>
+</body>
+</html>
