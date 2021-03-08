@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency</title>
+
+</head>
+<body>
+    <h2>CHuyển đổi tiền tệ </h2> <br/><br/>
+    <span>Amount</span>  &#160; &#160; <input id="amount" type="number" width="2px"/> &#160; &#160;
+
+
+    <span>Mệnh giá A</span>  &#160; &#160;
+    <select id="crr_1">
+            <option name="currency" value="VND">VND</option>
+            <option name="currency" value="USD">USD</option>
+            <option name="currency" value="Yen">Yen</option>
+    </select> &#160; &#160;
+
+    <span>Mệnh giá B</span>  &#160; &#160;
+    <select id="crr_2">
+        <option name="currency2" value="VND">VND</option>
+        <option name="currency2" value="USD">USD</option>
+        <option name="currency2" value="Yen">Yen</option>
+    </select> &#160; &#160;
+
+
+
+    <br/>
+    <button onclick="convert()" >Convert</button>
+    <br/>
+
+    <ketqua id="ketqua"></ketqua>
+
+    <script src="Currency.js"></script>
+</body>
+</html>
