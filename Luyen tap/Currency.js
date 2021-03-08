@@ -12,7 +12,7 @@ function convert(){
     alert(crr_1);
     alert(crr_2);
     if(crr_1== "VND") {
-        ts_1 = 1000;
+        ts_1 = 1;
     }
     if(crr_1== "USD"){
             ts_1=23000;
@@ -24,7 +24,7 @@ function convert(){
 
 
     if(crr_2== "VND") {
-        ts_2=1000;
+        ts_2=1;
     }
     if(crr_2=="USD"){
             ts_2=23000;
