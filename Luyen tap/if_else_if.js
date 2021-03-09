@@ -1,11 +1,13 @@
-var name;
-var pass;
+let name;
+let pass;
 
 function kiemtra(){
 
+    let name2=document.getElementById("name4");
     name=document.getElementById("name").value;
     pass=document.getElementById("pass").value;
-    alert(name);
+    alert(name2); //tra ve null vì ko tim dc the có id "name"
+    alert(name); // tra ve "" khi không nhập gì
     debugger;
     if (name=="Admin") {
         if (pass=="TheMaster") {
