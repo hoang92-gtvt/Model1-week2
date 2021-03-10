@@ -12,9 +12,7 @@ function init() {
     imgObj.style.left = '0px';
 }
 // function aa(){
-    alert("aaa")
-
-
+    //alert("aaa")
 // }
 
 function moveRight() {
